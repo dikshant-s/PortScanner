@@ -1,0 +1,119 @@
+[
+    {
+        "host": "127.0.0.1",
+        "range_low": 1,
+        "range_high": 80,
+        "portnum": [
+            "Port 9",
+            "Port 15",
+            "Port 19",
+            "Port 30",
+            "Port 33",
+            "Port 42",
+            "Port 43",
+            "Port 52",
+            "Port 56",
+            "Port 58"
+        ],
+        "time_taken": "0:02:18.293777"
+    },
+    {
+        "host": "142.250.183.238",
+        "range_low": 1,
+        "range_high": 100,
+        "portnum": [],
+        "time_taken": "0:08:16.958155"
+    },
+    {
+        "host": "142.250.193.142",
+        "range_low": 1,
+        "range_high": 100,
+        "portnum": [],
+        "time_taken": "0:02:32.170014"
+    },
+    {
+        "host": "127.0.0.1",
+        "range_low": 1,
+        "range_high": 100,
+        "portnum": [
+            "Port 9",
+            "Port 15",
+            "Port 19",
+            "Port 30",
+            "Port 33",
+            "Port 42",
+            "Port 43",
+            "Port 52",
+            "Port 56",
+            "Port 58",
+            "Port 80"
+        ],
+        "time_taken": "0:02:56.344345"
+    },
+    {
+        "host": "127.0.0.1",
+        "range_low": 1,
+        "range_high": 100,
+        "portnum": [
+            "Port 9",
+            "Port 15",
+            "Port 19",
+            "Port 30",
+            "Port 33",
+            "Port 42",
+            "Port 43",
+            "Port 52",
+            "Port 56",
+            "Port 58",
+            "Port 80"
+        ],
+        "time_taken": "0:02:59.935842"
+    },
+    {
+        "host": "127.0.0.1",
+        "range_low": 1,
+        "range_high": 100,
+        "portnum": [
+            "Port 9",
+            "Port 15",
+            "Port 19",
+            "Port 30",
+            "Port 33",
+            "Port 42",
+            "Port 43",
+            "Port 52",
+            "Port 56",
+            "Port 58",
+            "Port 80"
+        ],
+        "time_taken": "0:03:00.345449"
+    },
+    {
+        "host": "172.217.174.69",
+        "range_low": 1,
+        "range_high": 50,
+        "portnum": [],
+        "time_taken": "0:17:11.272705"
+    },
+    {
+        "host": "127.0.0.1",
+        "range_low": 1,
+        "range_high": 80,
+        "portnum": [],
+        "time_taken": "0:02:40.187981"
+    },
+    {
+        "host": "127.0.0.1",
+        "range_low": 1,
+        "range_high": 80,
+        "portnum": [],
+        "time_taken": "0:02:40.142691"
+    },
+    {
+        "host": "142.251.221.174",
+        "range_low": 1,
+        "range_high": 80,
+        "portnum": [],
+        "time_taken": "0:27:42.366043"
+    }
+]

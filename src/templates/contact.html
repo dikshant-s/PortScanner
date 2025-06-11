@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Port Scanner</title>
+    <link rel="stylesheet" href="static/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <ul class="sidenav sidenav-fixed">
+            <li>
+                <div class="user-view">
+                    <div class="background" style="background-color: #3b6978;"></div>
+                    <a href="#user"><img class="circle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAZlBMVEX///8AAACioqL8/PxXV1fb29vi4uKbm5v4+Pj09PTw8PDIyMjs7Ozl5eWIiIjLy8u0tLQmJiYaGhp2dnbBwcHV1dVSUlJpaWmrq6tBQUGVlZUICAhJSUmAgIAtLS03NzdgYGASEhKVMjtNAAAETUlEQVRogbVa6bqrIAyse2vdcK1LXd7/Je9pgq0VEIHe+XU+xRGTSUjSc7mcQuTZTT0tPZncIvNv5x46h3s3WBvkTRD/itpvemuPMbn+gjpKGGYAeTjG3LHL5/5DYcqdfgztNkUXJEXTvo3k+kbc5UpUP+6rFeKyI/TqZOLXdKHuy77F9/ZDrS/KeDUu6zqvxluNrmjCGQk6nixCyp5okgf4eMa/e33ibU+LO+qPtxa6BoZBpxXiZ+nb7xrcXg7qDg+WlEA+aGzdhieDoyU39HikzH1rIEqONr5u/XADXPhglU6yCkK1VibHTZWSVfB5o7JdQCutLDNV4HRlvRSQ9mQpO3qt6gVhJgZEyCxbBeTWQ5V8hOiTkhMtuZBTZ004apEP/9MsIDL3HLmyQ0GKg0zB3mvVIosGBhk8JlMwbIEop/TqlDVbCDVVbnrGucfp1Os1T7pOnlwcPOkqdXIsWaajJRVUHrnOOefKkrXj6qkc9gWP5mLDoOGkcuWjwNpBlHbtw8pDBg8ShzWm3Lu0qlE/hijwNLJyzuautFqUHidi0N1Zz10MOiltY4iGDN8k1OwW6bb05XpZesYe492z9GNSelEUV1mzVucWMeO+XB65JUKrV4NuUbGtHGI2a1oo7JZD7erUnzz43bijHsofNtFXLxlGkvfWkv816Flo2OFWZZYF2VbGkZdmWVn5X8Tpw/67qOTZW9egIUhyWHOFBWppauyz7bT33Fh3yYSP3YKtG87NGrLl23mFQHJV871u4ie4La7sHIF0rDSc6Lns1y22jPxjEtJO77+T9Ms41/s7u1ht+4lhSV1nf+i8OP68KW/st039YP5EbRDH3v297vDkyFZDUL1V24FI387PYp42V6yGvjF84uv6A7vfMOFNn9C+daLU8trDxshUBoOYHD/vuw2JGxH386vVox8tdGpFuIarkollHrq9QlH1k6gYwNucit8vd8Oo5s6GjNMe+RR7kFbwar9rZreu3bmwBbHog9ldfr58wJvV++EVtHTkCwZylXqx/UGJW+fdSkUWPw8cNPDmBehOo0O3FLoU0gUxGnM6QM5pBnwoop4m3BcHpmqcwVTaH6j0LKCqHlnTghBzg9rvhTvYha06QKSD4Vzcg0TB9BpoLtPBMo4DGY86xNyfFyq5eS85VJFspiUFGHfak4cW11qqwCZsT14J/KwITH57oWPkGlfFJTe74Cml11NugELfC/ohTGhKSLnZz+Z6Qhnoun2cY8I15cbREaOL/0qe/dLme9HxPaEM3OO+AMAhnrQIliHh6sJZfpEV8beAgREdHqE/OSzY0gcDl8mWSgixqGTLomgwTrp0yDFzulRMAFahfdL59Oc2bj1Hf20bHzqGdyqb9kZ8UXhrhz/ORRLYCgiSwl2nMLUgs1acIl8VtdCqHm/4oYSjIUyYiAdDJ0CC43EGtwE6h6GTCy2ugnpS+4DXf0nYFevJfyAjMW1VtIHBAAAAAElFTkSuQmCC"></a>
+                    <a href="#name"><span class="white-text name">Port Scanner</span></a>
+                </div>
+            </li>
+            <li><a href="/">Scan Port</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h3 style="text-align: center;margin-bottom: 30px;">Contact Us</h3>
+        <p>If you have any questions or feedback, feel free to reach out to us using the contact form below.</p>
+
+        <form action="/contact" method="POST">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="name" name="name" type="text" class="validate" required>
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" name="email" type="email" class="validate" required>
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="message" name="message" class="materialize-textarea" required></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+
+    <footer class="page-footer" style="background-color: #3b6978;">
+        <div class="container">
+            <div class="footer-copyright">
+                <span>&copy; 2024 Port Scanner</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
