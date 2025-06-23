@@ -100,3 +100,101 @@ button{
     color:black;
     padding:2%;
 }
+/* Collapse sidenav width */
+@media only screen and (min-width: 993px) {
+  .sidenav {
+    width: 60px !important;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+  }
+
+  .sidenav:hover {
+    width: 250px !important;
+  }
+
+  .sidenav .user-view span,
+  .sidenav .user-view img,
+  .sidenav a {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .sidenav:hover .user-view span,
+  .sidenav:hover .user-view img,
+  .sidenav:hover a {
+    opacity: 1;
+  }
+}
+
+/* Push main content right when sidenav expands */
+@media only screen and (min-width: 993px) {
+  #showpage {
+    margin-left: 70px;
+    transition: margin-left 0.3s ease;
+  }
+
+  .sidenav:hover ~ #showpage {
+    margin-left: 260px;
+  }
+}
+
+.custom-sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 220px; /* Increased default width */
+  overflow-x: hidden;
+  background-color: #3b6978;
+  transition: width 0.3s ease;
+  z-index: 1000;
+}
+
+/* Remove hover expansion — now it's always expanded */
+.custom-sidenav:hover {
+  width: 220px; /* Keep width same as default */
+}
+
+.custom-sidenav li a {
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+
+/* Always show text in the sidebar items */
+.custom-sidenav li a span {
+  display: inline;
+  
+}
+
+/* Optional: Style user-view */
+.custom-sidenav .user-view {
+  padding: 20px;
+  text-align: center;
+}
+
+.custom-sidenav .user-view img.circle {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+
+/* Logo transition for size change */
+.sidebar-logo {
+  width: 40px;
+  height: 40px;
+  transition: width 0.3s ease, height 0.3s ease;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+/* Expand logo on hover of sidenav */
+.custom-sidenav:hover .sidebar-logo {
+  width: 80px;
+  height: 80px;
+}
