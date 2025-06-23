@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Oswald&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar{
+    flex:20%;
+    font-family: 'Oswald', sans-serif;
+}
+.navtitle{
+    font-family: 'Hind Madurai', sans-serif;
+}
+#showpage{
+    margin-left: 3%;
+    padding-top: 2%;
+    flex:55%;
+    font-size: 30px;
+    height: 100vh;
+    margin-right: 3%;
+    font-family: 'Oswald', sans-serif;
+}
+#showtitle{
+    font-family: 'Hind Madurai', sans-serif;
+}
+#timer{
+    flex:25%;
+    height:100vh;
+    color:black;
+    padding:2%;
+}
+#timer-head{
+    font-size: 30px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+#timer-text{
+    margin: 1% 0 2% 0;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    margin: 2% 0 2% 0;
+}
+#line{
+    border-bottom: 2px solid #3b6978;
+    margin-top: 3%;
+}
+#line2{
+    border-bottom:2.5px solid #3b6978;
+    margin-top: 1.5vw;
+    margin-bottom:1.5vw ;
+}
+#form{
+    margin-top: 5%;
+    font-size: 10px;
+    align-items: center;
+    width: 30vw;
+    margin-left: 12vw;
+}
+#scan-port-button{
+    margin: 1vw 0 1vw 10.5vw;
+    background-color: #3b6978;
+    color: white;
+}
+#time-taken{
+    margin-top: 2%;
+    font-family: 'Oswald', sans-serif;
+}
+#seconds , #minutes {
+    font-size: 5em;
+    background-color:#3b6978;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#colon {
+    font-size: 5em;
+    color: black;
+}
+i{
+    margin-top: 20vw;
+}
+
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button{
+    margin-left: 480px;
+}
+#history{
+    flex:25%;
+    height:100vh;
+    color:black;
+    padding:2%;
+}
+/* Collapse sidenav width */
+@media only screen and (min-width: 993px) {
+  .sidenav {
+    width: 60px !important;
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+  }
+
+  .sidenav:hover {
+    width: 250px !important;
+  }
+
+  .sidenav .user-view span,
+  .sidenav .user-view img,
+  .sidenav a {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .sidenav:hover .user-view span,
+  .sidenav:hover .user-view img,
+  .sidenav:hover a {
+    opacity: 1;
+  }
+}
+
+/* Push main content right when sidenav expands */
+@media only screen and (min-width: 993px) {
+  #showpage {
+    margin-left: 70px;
+    transition: margin-left 0.3s ease;
+  }
+
+  .sidenav:hover ~ #showpage {
+    margin-left: 260px;
+  }
+}
+
+.custom-sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 60px;
+  overflow-x: hidden;
+  background-color: #3b6978;
+  transition: width 0.3s ease;
+  z-index: 1000;
+}
+
+.custom-sidenav:hover {
+  width: 220px;
+}
+
+.custom-sidenav li a {
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.custom-sidenav .user-view {
+  padding: 20px;
+}
+
+.custom-sidenav li a span {
+  display: none;
+}
+
+.custom-sidenav:hover li a span {
+  display: inline;
+}
+
+/* Logo transition for size change */
+.sidebar-logo {
+  width: 40px;
+  height: 40px;
+  transition: width 0.3s ease, height 0.3s ease;
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+
+/* Expand logo on hover of sidenav */
+.custom-sidenav:hover .sidebar-logo {
+  width: 80px;
+  height: 80px;
+}
