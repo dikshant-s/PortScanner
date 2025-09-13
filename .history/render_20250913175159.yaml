@@ -1,5 +1,12 @@
 services:
   - type: web
+    name: portscanner
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.mainScanner:app
+    autoDeploy: true
+services:
+  - type: web
     name: port-scanner
     env: python
     buildCommand: pip install -r requirements.txt

@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: portscanner
-    env: python
-    buildCommand: ""
-    startCommand: gunicorn mainScanner:app
-    autoDeploy: true

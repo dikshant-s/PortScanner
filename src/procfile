@@ -1,0 +1,1 @@
+web: gunicorn mainScanner:app --bind 0.0.0.0:$PORT
